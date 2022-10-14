@@ -3,7 +3,7 @@ About r-liqueuer
 
 Home: https://github.com/DataWookie/liqueueR
 
-Package license: GPL-3
+Package license: GPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-liqueuer-feedstock/blob/main/LICENSE.txt)
 
