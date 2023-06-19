@@ -1,11 +1,11 @@
-About r-liqueuer
-================
+About r-liqueuer-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-liqueuer-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/DataWookie/liqueueR
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-liqueuer-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides three classes: Queue, PriorityQueue and Stack. Queue is just a "plain vanilla" FIFO queue; PriorityQueue orders items according to priority. Stack implements LIFO.
 
