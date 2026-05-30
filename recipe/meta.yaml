@@ -1,4 +1,4 @@
-{% set version = '0.0.1' %}
+{% set version = "0.0.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/liqueueR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/liqueueR/liqueueR_{{ version }}.tar.gz
-  sha256: cd86db24c381f86916e3c4130f48674e60d7ea4b7c25ff8651348ddfc08af266
+  sha256: d464041bc1bd643a48c7b6aa3e3dcfd72a1ba92c74accd2dee9c9b30f42c43e6
 
 build:
-  number: 6
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -37,8 +37,7 @@ test:
 about:
   home: https://github.com/DataWookie/liqueueR
   license: GPL-3.0-only
-  summary: 'Provides three classes: Queue, PriorityQueue and Stack. Queue is just a "plain vanilla"
-    FIFO queue; PriorityQueue orders items according to priority. Stack implements LIFO.'
+  summary: 'Provides three classes: Queue, PriorityQueue and Stack. Queue is just a "plain vanilla" FIFO queue; PriorityQueue orders items according to priority. Stack implements LIFO.'
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
